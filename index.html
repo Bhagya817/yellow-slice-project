@@ -1,0 +1,120 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home - Yellow Slice Assignment</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content=""/>
+     <meta name="keywords" content="" />
+    <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--CSS Files -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+    <link href="yellow.css" rel="stylesheet">
+
+<style>
+    @media (max-width: 991px){
+    .content {
+        width: 100%;
+        padding-left: 0;
+        padding: 15px;
+        margin-top: 0px;
+    }
+    }
+    @media (max-width: 991px){
+    #menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 40%;
+        height: 100%;
+        margin: 0;
+        padding-top: 60px;
+        background-color: #252525;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0 0;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+    }
+</style>
+</head>
+
+<body class="home">
+
+
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box active">
+            <i class="fa fa-home"></i>
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+           <i class="fa fa-briefcase"></i>
+            <a href="about.html">
+                <h2>About</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+                <li class="active"><a href="#index"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href="#about"><i class="fa fa-briefcase"></i><span>About</span></a></li>
+            </ul>
+        </div>
+    </nav>
+ <!-- Mobile Menu Ends -->
+</header>
+<!-- Header Ends -->
+<!-- Main Content Starts -->
+<section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1" id="index">
+   
+    <div class="row home-details-container align-items-center">
+      <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+ 
+    </div>
+</section>
+
+<section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1" id="about">
+   <div class="row home-details-container align-items-center">
+      <div class="overlay"></div>
+  <video class="section-2" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="img/section-2.mp4" type="video/mp4" width="100%">
+  </video>
+  <h1 class="textt" style="color: #fff">About Sodexo Accelerator</h1>
+  <div class="inner-content">
+    <div class="content">
+        <img src="http://www.yellowslice.tech/projs/html2021/assets/vid_placeholder.svg" width="100%">
+    </div>
+    <div class="content-2">
+        Sodexo Accelerator India seeks to be at the forefront of change by embracing emerging trends in consumer experiences across environments. The program explores associations in the gamut of food services, facility management and benefits & rewards, to deliver technologically-forward solutions. We are on a quest to connect and collaborate with innovative tech and non-tech start-ups.
+        Start-ups operating in relevant solutions can expect scale and mentorship, as well as access to Sodexo’s client ecosystem. For Sodexo, such partnerships further our constant quest to lead positive change.
+    </div>
+  </div>
+ </div>
+</section>
+<!-- Main Content Ends -->
+
+</body>
+</html>
